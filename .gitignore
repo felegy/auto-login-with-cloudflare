@@ -1,3 +1,4 @@
 /.vscode
+/vendor
 languages/*.mo
 languages/*.po~

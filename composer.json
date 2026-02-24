@@ -1,0 +1,19 @@
+{
+  "name": "felegy/auto-login-with-cloudflare",
+  "type": "wordpress-plugin",
+  "readme": "./readme.md",
+  "require": {
+    "php": ">=8.0",
+    "firebase/php-jwt": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wpcfajal\\": "includes/classes/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
